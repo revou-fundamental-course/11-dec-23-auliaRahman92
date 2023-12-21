@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+nav ul {
+  list-style: none;
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  justify-content: end;
+  margin: 0 7%;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-bottom: 2px solid transparent;
+  border-top: 2px solid transparent;
+  padding: 4px;
+  transition: 0.3s;
+}
+ul li a:hover {
+  border-top-color: rgb(0, 175, 0);
+  border-bottom-color: rgb(0, 175, 0);
+  color: rgb(0, 175, 0);
+  border-radius: 3px;
+}
+.achievement {
+  scroll-behavior: smooth;
+}
+.container {
+  width: 100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+table tr td img {
+  text-align: center;
+  margin-left: 23%;
+  cursor: pointer;
+}
+.link__table {
+  padding: none;
+  margin: none;
+  text-align: center;
+}
+.link__table td {
+  padding: none;
+  border-radius: 5px;
+  text-align: center;
+}
+.main {
+  font-size: 30px;
+  margin-bottom: -0.4%;
+}
+.puncak p {
+  text-align: center;
+}
+p {
+  padding-left: 6%;
+}
+.fasilitas {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  scroll-behavior: smooth;
+}
+.fasilitas .guru,
+.kelas,
+.event,
+.prestasi {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.guru {
+  background-image: url(guru.jpg);
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+.event {
+  background-image: url(event.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.kelas {
+  background-image: url(kelas.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.prestasi {
+  background-image: url(prestasi.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.fasilitas ul li {
+  list-style: none;
+}
+.fasilitas ul {
+  display: flex;
+  justify-content: space-around;
+}
+h1 {
+  text-align: center;
+  scroll-behavior: smooth;
+}
+.puncak {
+  height: 100vh;
+}
+.fasilitas p {
+  font-size: 17px;
+  position: relative;
+  right: -18%;
+}

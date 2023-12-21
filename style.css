@@ -107,11 +107,12 @@ h1 {
   text-align: center;
   scroll-behavior: smooth;
 }
-.puncak {
-  height: 100vh;
-}
+
 .fasilitas p {
   font-size: 17px;
   position: relative;
   right: -18%;
+}
+.container__slider {
+  padding: 2rem;
 }

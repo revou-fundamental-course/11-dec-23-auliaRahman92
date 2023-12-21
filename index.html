@@ -46,7 +46,7 @@
                   </td>
                   <td>
                     <ul>
-                      <li><a href="#">Message Us</a></li>
+                      <li><a href="#message">Message Us</a></li>
                     </ul>
                   </td>
                 </tr>
@@ -60,10 +60,13 @@
     </div>
     <section class="container__slider">
       <div class="slider__wrapper">
-        <img id="slide1" src="pramuka.jpg" alt="" />
-        <img id="slide2" src="achiv.jpeg" alt="" />
-        <img id="slide3" src="olymp.png" alt="" />
-        <img id="slide4" src="futsal.jpeg" alt="" />
+        <div class="slider">
+          <img id="slide1" src="pramuka.jpg" alt="" />
+          <img id="slide2" src="achiv.jpeg" alt="" />
+          <img id="slide3" src="olymp.png" alt="" />
+          <img id="slide4" src="futsal.jpeg" alt="" />
+        </div>
+
         <div class="slider__nav">
           <a href="#slide1"></a>
           <a href="#slide2"></a>
@@ -98,5 +101,61 @@
         </li>
       </ul>
     </div>
+    <form action="">
+      <h1 id="message">Message Us</h1>
+      <table class="form">
+        <tr>
+          <td>
+            <label for="username">username </label>
+          </td>
+          <td><p>:</p></td>
+          <td>
+            <input type="text" id="username" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="date">tanggal lahir </label>
+          </td>
+          <td><p>:</p></td>
+          <td><input type="date" id="date" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="kelamin">jenis kelamin</label>
+          </td>
+          <td><p>:</p></td>
+          <td>
+            <input type="radio" id="kelamin" name="jeniskelamin" /><label
+              for="kelamin"
+              >laki laki</label
+            >
+            <input type="radio" id="kelamin" name="jeniskelamin" /><label
+              for="kelamin"
+              >perempuan</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="komen">Pesan</label>
+          </td>
+          <td><p>:</p></td>
+          <td><textarea name="" id="komen" cols="40" rows="10"></textarea></td>
+        </tr>
+      </table>
+      <div class="pesan">
+        <b>current time :</b><span>Thursday Dec 21 2023 14:49 gmt+0000</span>
+        <br /><br />
+        <b>nama :</b><span>m. aulia rahman</span> <br />
+        <b>tanggal lahir :</b><span>08/06/2008</span>
+        <br />
+        <b>jenis kelamin :</b><span>laki laki</span>
+        <br />
+        <b>pesan :</b><span>masih belajar dasar aja...</span>
+      </div>
+    </form>
+
+    <div class="clear"></div>
   </body>
 </html>
